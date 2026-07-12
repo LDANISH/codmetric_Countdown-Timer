@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event Countdown</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>⏳ Event Countdown</h1>
+
+<input type="datetime-local" id="targetDate">
+
+<div class="buttons">
+<button id="start">Start Countdown</button>
+<button id="reset">Reset</button>
+</div>
+
+<div class="timer">
+
+<div class="box">
+<h2 id="day">00</h2>
+<span>Days</span>
+</div>
+
+<div class="box">
+<h2 id="hour">00</h2>
+<span>Hours</span>
+</div>
+
+<div class="box">
+<h2 id="minute">00</h2>
+<span>Minutes</span>
+</div>
+
+<div class="box">
+<h2 id="second">00</h2>
+<span>Seconds</span>
+</div>
+
+</div>
+
+<div class="progress">
+<div id="bar"></div>
+</div>
+
+<p id="message"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
